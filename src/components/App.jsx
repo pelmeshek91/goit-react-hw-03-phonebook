@@ -16,6 +16,7 @@ export class App extends Component {
     ],
     filter: '',
   };
+  componentDidMount() {}
   addContact = newContact => {
     this.state.contacts.some(
       contact => contact.name.toLowerCase() === newContact.name.toLowerCase()
